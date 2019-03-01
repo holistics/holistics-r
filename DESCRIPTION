@@ -1,0 +1,20 @@
+Package: Holistics
+Type: Package
+Title: R Package for Holistics API
+Version: 0.0.0.9000
+Date: 2019-02-16
+Author: Ha Pham
+Maintainer: Ha Pham <ha.pham@holistics.io>
+Description: This package assists users to download Holistics report data in tabular format. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr, 
+    jsonlite, 
+    utils,
+    tidyr,
+    xml2
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
