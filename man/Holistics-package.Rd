@@ -4,9 +4,9 @@
 \name{Holistics-package}
 \alias{Holistics}
 \alias{Holistics-package}
-\title{HolisticsR: R package to interact with Holistics API}
+\title{Holistics-R: R package to interact with Holistics API}
 \description{
-HolisticsR aims to help users integrate Holistics reports into their own data pipeline.
+This package aims to help users integrate Holistics reports into their own data pipeline.
 }
 \details{
 To learn more about Holistics' API, please visit: \url{https://docs.holistics.io/reference#holistics-api}

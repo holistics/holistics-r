@@ -4,7 +4,7 @@
 \alias{check_result}
 \title{Assistance function to check job status}
 \usage{
-check_result(url = "https://internal.holistics.io/", api_key, job_id)
+check_result(url = "https://secure.holistics.io/", api_key, job_id)
 }
 \arguments{
 \item{url}{URL to access your Holistics app. If nothing is provided, this will default to \url{https://secure.holistics.io/}}

@@ -95,7 +95,7 @@ submit_request = function(url = "https://secure.holistics.io/", api_key, report_
 #'
 #' @export
 
-check_result <- function(url = "https://internal.holistics.io/", api_key, job_id) {
+check_result <- function(url = "https://secure.holistics.io/", api_key, job_id) {
 
     headers$`X-Holistics-Key` = api_key
     url_check_result = modify_url(url, path = "/queries/get_export_results.json")
